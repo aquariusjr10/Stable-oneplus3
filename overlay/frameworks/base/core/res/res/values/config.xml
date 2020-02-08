@@ -465,9 +465,36 @@
     <!-- Whether device needs to wait for Qualcomm MPCTL service to start
          before setting power profiles on boot. -->
     <bool name="config_waitForMpctlOnBoot">true</bool>
-s
+
     <!-- Whether device has physical tri state switch -->
     <bool name="config_hasAlertSlider">true</bool>
+
+    <!-- Disable button backlight settings. -->
+    <integer name="config_buttonBrightnessSettingDefault">0</integer>
+
+    <!-- The list absolute paths of jar/apk files containing the device specific handlers,
+         delimited by File.pathSeparator, which defaults to ":" on Android -->
+    <string-array name="config_deviceKeyHandlerLibs" translatable="false">
+        <item>/system/priv-app/OnePlusParts/OnePlusParts.apk</item>
+    </string-array>
+
+    <!-- Full qualified name of the class that implements
+         com.android.internal.os.DeviceKeyHandler interface. -->
+    <string-array name="config_deviceKeyHandlerClasses" translatable="false">
+        <item>com.oneplus.parts.KeyHandler</item>
+    </string-array>
+
+    <!-- Whether device ignores the RSSNR signal implementation-->
+    <bool name="config_ignoreRssnrSignalLevel">true</bool>
+
+       <!-- Control the behavior when the user long presses the home button.
+            0 - Nothing
+            1 - Launch all apps intent
+            2 - Launch assist intent
+         This needs to match the constants in
+         policy/src/com/android/internal/policy/impl/PhoneWindowManager.java
+    -->
+    <integer name="config_longPressOnHomeBehavior">2</integer>
 
     <!-- Set the automatic brightness mode on by default -->
     <bool name="def_screen_brightness_automatic_mode">true</bool>
