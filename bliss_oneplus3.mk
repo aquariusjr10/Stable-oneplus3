@@ -33,6 +33,9 @@ PRODUCT_BRAND := OnePlus
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
+# Inherit PixelGApps
+$(call inherit-product-if-exists, vendor/gapps/gapps.mk)
+
 BUILD_FINGERPRINT := "OnePlus/OnePlus3/OnePlus3:9/PKQ1.181203.001/1907311932:user/release-keys"
 
 TARGET_VENDOR := oneplus
@@ -44,4 +47,6 @@ export BLISS_DEVELOPER=Deepakjr
 TARGET_BOOT_ANIMATION_RES := 1440
 #Changelog fix
 export TEMPORARY_DISABLE_PATH_RESTRICTIONS=true
+# Inherit PixelGApps
+$(call inherit-product-if-exists, vendor/gapps/gapps.mk)
 
