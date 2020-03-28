@@ -21,5 +21,4 @@
 
     <!-- Defines the custom pocket sensor used by various OEMs like OnePlus-->
     <string name="config_custom_proximity">com.oneplus.sensor.pocket</string>
-    
 </resources>
