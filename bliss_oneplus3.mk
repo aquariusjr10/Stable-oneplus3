@@ -38,6 +38,6 @@ BUILD_FINGERPRINT := "OnePlus/OnePlus3/OnePlus3:9/PKQ1.181203.001/1907311932:use
 TARGET_VENDOR := oneplus
 
 #Bliss build details
-export BLISS_BUILDTYPE=Official
+export BLISS_BUILDTYPE=OFFICIAL
 export BLISS_DEVELOPER=Deepak jr
 
