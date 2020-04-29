@@ -38,5 +38,6 @@ BUILD_FINGERPRINT := "OnePlus/OnePlus3/OnePlus3:9/PKQ1.181203.001/1907311932:use
 TARGET_VENDOR := oneplus
  
 #Ancient build details 
-export ANCIENT_BUILDTYPE=Official 
-export ANCIENT_DEVELOPER=Deepak jr 
+export ANCIENT_OFFICIAL=true
+IS_PHONE := true
+export ANCIENT_NOGAPPS=true
