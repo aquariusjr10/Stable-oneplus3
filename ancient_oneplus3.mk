@@ -39,3 +39,6 @@ TARGET_VENDOR := oneplus
  
 #Ancient build details 
 export ANCIENT_OFFICIAL=true
+IS_PHONE := true
+export ANCIENT_NOGAPPS=true
+
