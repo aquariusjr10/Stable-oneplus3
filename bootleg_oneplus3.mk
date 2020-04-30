@@ -38,5 +38,5 @@ BUILD_FINGERPRINT := "OnePlus/OnePlus3/OnePlus3:9/PKQ1.181203.001/1907311932:use
 TARGET_VENDOR := oneplus
 
 #Bootleg stuffes
-DEVICE\_MAINTAINERS := Deepakjr
-BOOTLEGGERS\_BUILD\_TYPE := Shishufied 
+DEVICE_MAINTAINERS := Deepakjr
+BOOTLEGGERS_BUILD_TYPE := Shishufied 
