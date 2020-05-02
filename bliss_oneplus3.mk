@@ -39,5 +39,5 @@ TARGET_VENDOR := oneplus
 
 #Bliss build details
 export BLISS_BUILDTYPE=OFFICIAL
-export BLISS_DEVELOPER=Deepak jr
+export BLISS_DEVELOPER=Deepakjr
 
