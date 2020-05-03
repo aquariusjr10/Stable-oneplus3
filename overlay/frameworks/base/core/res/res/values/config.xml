@@ -464,6 +464,7 @@
     <!-- Whether device needs to wait for Qualcomm MPCTL service to start
          before setting power profiles on boot. -->
     <bool name="config_waitForMpctlOnBoot">true</bool>
+<<<<<<< HEAD
 
     <!-- Whether to intercept inputs on screen off -->
     <bool name="config_enableKeyHandler">true</bool>
@@ -509,4 +510,6 @@
 
     <!-- Whether device has physical tri state switch -->
     <bool name="config_hasAlertSlider">true</bool>
+=======
+>>>>>>> parent of bc62e1d... op3: Kang KeyHandler for tri-state-key from sdm845-common
 </resources>

@@ -39,4 +39,7 @@ TARGET_VENDOR := oneplus
 
 #Bootleg stuffes
 DEVICE_MAINTAINERS := Deepakjr
-BOOTLEGGERS_BUILD_TYPE := Shishufied 
+BOOTLEGGERS_BUILD_TYPE := Shishufied
+#Changelog fix
+export TEMPORARY_DISABLE_PATH_RESTRICTIONS=true
+
