@@ -40,6 +40,8 @@ TARGET_VENDOR := oneplus
 #Bliss build details
 export BLISS_BUILDTYPE=OFFICIAL
 export BLISS_DEVELOPER=Deepakjr
+# Bootanimation
+TARGET_BOOT_ANIMATION_RES := 1080
 #Changelog fix
 export TEMPORARY_DISABLE_PATH_RESTRICTIONS=true
 
