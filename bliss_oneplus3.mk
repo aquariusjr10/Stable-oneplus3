@@ -49,4 +49,5 @@ TARGET_BOOT_ANIMATION_RES := 1440
 export TEMPORARY_DISABLE_PATH_RESTRICTIONS=true
 # Inherit PixelGApps
 $(call inherit-product-if-exists, vendor/gapps/gapps.mk)
+IS_PHONE := true
 
